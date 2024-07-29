@@ -1,0 +1,61 @@
+/* roleForm.css */
+
+.role-form-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.role-form-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.role-form {
+    text-align: left;
+}
+
+.role-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.role-form input[type="text"],
+.role-form textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.role-form textarea {
+    height: 200px;
+}
+
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Form</title>
+    <link rel="stylesheet" href="roleForm.css">
+</head>
+<body>
+    <div class="role-form-container">
+        <h2>Role Form</h2>
+        <form id="roleForm" class="role-form">
+            <label for="roleName">Role Name:</label>
+            <input type="text" id="roleName" name="roleName" required>
+
+            <label for="permission">Permission:</label>
+            <input type="text" id="permission" name="permission" required>
+
+            <div class="button-group">
+                <button type="button" id="saveBtn">Save</button>
+                <button type="button" id="commitBtn">Commit</button>
+                <button type="button" id="updateBtn">Update</button>
+                <button type="button" id="deleteBtn">Delete</button>
+                <button type="button" id="prevBtn">Previous</button>
+                <button type="button" id="nextBtn">Next</button>
+                <button type="button" id="exportBtn">Export</button> <!-- Ensure Export Button is included -->
+            </div>
+        </form>
+        <div class="page-number"></div>
+    </div>
+
+    <script src="roleForm.js"></script>
+</body>
+</html>
